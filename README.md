@@ -26,10 +26,11 @@ Aside from creating or using an existing project on the Google Cloud Platform, s
 2. Under the index.js tab, expand the "More" section.
 3. Add a new row to the list. More information about the env variables themselves are availabe in this repo's index.js.
 
-### What's next?
+
+## What's next?
 After following these steps, Cloud Functions will automatically deploy your module after creating / editing the function. In order to actually use the now ready Cloud Function, get its URL from the Trigger tab of the Function overview.
 
-### Additional Information
+## Additional Information
 1. Dependencies:
     1. @sendgrid/mail: This module provides an interface for only basic emailing with SendGrid. For more information on what else is available, see its github page: https://github.com/sendgrid/sendgrid-nodejs#usage
     2. node-schedule: A task-scheduling module: https://github.com/node-schedule/node-schedule
